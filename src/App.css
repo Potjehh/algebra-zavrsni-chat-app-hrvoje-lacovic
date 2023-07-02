@@ -1,0 +1,123 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  background-color: #b5edf3;
+}
+.nazivChatApp {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid black;
+  width: 30%;
+  margin: 10px auto;
+  background-color: aliceblue;
+  color: blue;
+  border-radius: 50px;
+
+}
+.App-header {
+  background-color: #262626;
+  overflow: visible;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.ListaPoruka {
+  padding: 20px 0;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  list-style: none;
+  padding-left: 0;
+  flex-grow: 1;
+  overflow: auto;
+}
+
+.Poruka-poruka {
+  display: flex;
+  align-items: center;  
+  margin-top: 10px;
+}
+
+.Poruka-poruka.TrenutniClan {
+  flex-direction: row-reverse;
+  text-align: right;
+  align-items: center; 
+}
+
+.SadrzajPoruke {
+  display: inline-block;
+}
+
+.Poruka-poruka.TrenutniClan > .SadrzajPoruke {
+  align-items: flex-end;
+}
+
+.Poruka-poruka > .avatar {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 10px 0px; 
+}
+
+.SadrzajPoruke > .korisnickoIme {
+  display: block;
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  padding-bottom: 4px;
+  padding-left: 10px;
+  font-weight: 500;
+  overflow: auto;
+  font-weight: bold;
+}
+
+.SadrzajPoruke > .tekst {
+  padding: 10px 20px;
+  max-width: 400px;
+  margin-left: 7px;
+  border-radius: 12px;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  word-wrap: break-word;
+  font-weight: 500;
+  overflow: auto;
+}
+
+
+form {
+  display: flex;
+  width: auto;
+  justify-content: space-between;
+  max-width: 600px;
+  margin: 0 auto 40px;
+  box-sizing: border-box;
+}
+
+input {
+  padding: 15px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid rgb(0, 76, 255);
+  flex-grow: 1;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 5px 10px;
+  font-size: 16px;
+  background-color: rgb(38, 0, 255);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin-left: 10px;
+  font-weight: 600;
+}
+button:hover {
+  cursor: pointer;
+  background-color: antiquewhite;
+  color: blue;
+  font-weight: 600;
+}

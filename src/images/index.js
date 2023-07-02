@@ -1,0 +1,10 @@
+export { default as horse } from './horse.jpg';
+export { default as panda } from './panda.jpg';
+export { default as rabbit } from './rabbit.jpg';
+export { default as dog } from './dog.jpg';
+export { default as cat } from './cat.jpg';
+export { default as mouse } from './mouse.jpg';
+export { default as elephant } from './elephant.jpg';
+export { default as bear } from './bear.jpg';
+export { default as hippopotamus } from './hippopotamus.jpg';
+export { default as raccoon } from './raccoon.jpg';
