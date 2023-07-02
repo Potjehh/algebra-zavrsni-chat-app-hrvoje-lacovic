@@ -18,7 +18,7 @@ function randomName() {
 function randomColor() {
   let color;
   do {
-    color = '#' + Math.floor(Math.random() * 0xFFFFFF).toString(16);
+    color = '#' + (Math.floor(Math.random() * 0xFFFFFF).toString(16)).padStart(6, '0');
   } while (color === '#b5edf3');
   return color;
 } //nasumicna boja ali izbjegava da postavi istu nasumicnu boju korisniku kao boju pozadine aplikacije radi bolje preglednosti dodan do while u slucaju da nasumicna boja ispadne ista kao pozadinska
